@@ -45,9 +45,8 @@
 				"addInfo": 3
 			},
 			"immunity": {
-				"type": "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "water",
-				"val": 100
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 1
 			}
 		},
 		"stackExperience" :

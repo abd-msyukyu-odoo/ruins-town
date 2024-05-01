@@ -34,6 +34,10 @@
 		]
 	},
 	"changelog": {
+		"2.0.9": [
+			"Removed Cockatrice Stone Gaze immunity",
+			"Changed spell reduction to immunity for Kelpies"
+		],
 		"2.0.8": [
 			"Added secondary skill: Evasion",
 			"Changed some heroes secondaries"

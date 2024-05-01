@@ -43,11 +43,6 @@
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.stoneGaze",
 				"val": 20
-			},
-			"petrifyImmunity": {
-				"type": "SPELL_IMMUNITY",
-				"subtype": "spell.stoneGaze",
-				"addInfo": 1
 			}
 		},
 		"stackExperience" :

@@ -39,6 +39,10 @@
 		"abilities": {
 			"spirit": {
 				"type": "NON_LIVING"
+			},
+			"immunity": {
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
 			}
 		},
 		"stackExperience" :
