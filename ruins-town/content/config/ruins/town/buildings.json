@@ -296,7 +296,7 @@
 				},
 				"dwellingAlternateLvl5" : {
 					"cost" : { "mercury" : 2, "wood" : 3, "gold" : 1000 },
-					"description" : "Witch Hut allows you to recruit Sorceress.",
+					"description" : "Witch Hut allows you to recruit Forest Witches.",
 					"id" : 48,
 					"name" : "Witch Hut",
 					"requires" : [ 
