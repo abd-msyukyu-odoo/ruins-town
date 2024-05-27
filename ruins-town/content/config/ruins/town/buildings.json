@@ -207,7 +207,7 @@
 					"requires" : [ "allOf", [ "dwellingLvl1" ]]
 				},
 				"dwellingLvl4" : {
-					"cost" : { "wood" : 5, "gold" : 1000},
+					"cost" : { "wood" : 5, "gold" : 2000},
 					"description" : "Aquarius Pond allow you to recruit Kelpies.",
 					"id" : 33,
 					"name" : "Aquarius Pond",
@@ -262,7 +262,7 @@
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"cost" : { "mercury" : 5, "gold" : 1000},
+					"cost" : { "mercury" : 5, "gold" : 2000},
 					"description" : "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
 					"id" : 40,
 					"name" : "Upg. Aquarius Pond",
@@ -295,7 +295,7 @@
 					]
 				},
 				"dwellingAlternateLvl5" : {
-					"cost" : { "mercury" : 2, "wood" : 3, "gold" : 1000 },
+					"cost" : { "mercury" : 2, "wood" : 3, "gold" : 2500 },
 					"description" : "Witch Hut allows you to recruit Forest Witches.",
 					"id" : 48,
 					"name" : "Witch Hut",
@@ -304,7 +304,7 @@
 					]
 				},
 				"dwellingAlternateUpLvl5" : {
-					"cost" : { "mercury" : 2, "sulfur" : 2,"gold" : 1000},
+					"cost" : { "mercury" : 2, "sulfur" : 2,"gold" : 2500},
 					"description" : "The Upg. Witch Hut allows you to recruit Priestess.",
 					"id" : 55,
 					"name" : "Upg. Witch Hut",

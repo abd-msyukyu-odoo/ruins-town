@@ -4,11 +4,11 @@
 			{
 				"creature": "rn_creature_lvl1",
 				"max": 25,
-				"min": 20
+				"min": 15
 			},
 			{
 				"creature": "rn_creature_lvl2",
-				"max": 12,
+				"max": 9,
 				"min": 7
 			},
 			{
@@ -37,23 +37,31 @@
 		],
 		"specialty": {
 			"bonuses": {
-				"offence": {
-					"subtype": 0,
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"val": 5,
+				"interference": {
+					"propagator": "GLOBAL_EFFECT",
+					"limiters": [
+						"OPPOSITE_SIDE"
+					],
+					"subtype": "primarySkill.knowledge",
+					"type": "PRIMARY_SKILL",
+					"val": -20,
 					"valueType": "PERCENT_TO_BASE",
-					"updater": "TIMES_HERO_LEVEL"
+					"updater": {
+						"parameters": [
+							-5
+						],
+						"type": "GROWS_WITH_LEVEL"
+					}
 				}
 			}
 		},
 		"texts": {
-			"biography": "Stef* is a welsh bard and poet, writer of inumerous songs.",
-			"name": "Stef*",
+			"biography": "Stef is a welsh bard and poet, writer of inumerous songs.",
+			"name": "Stef",
 			"specialty": {
-				"description": "...",
+				"description": "{Knowledge} Opposite heroes Receives a -20% reduction to Knowledge attribute skill percentage.",
 				"name": "Writing",
-				"tooltip": "..."
+				"tooltip": "Knowledge enemy reduction."
 			}
 		}
 	}

@@ -18,7 +18,7 @@
 		},
 		"fightValue": 490,
 		"aiValue": 530,
-		"growth": 6,
+		"growth": 5,
 		"attack": 9,
 		"defense": 11,
 		"hitPoints": 40,

@@ -8,8 +8,8 @@
 			},
 			{
 				"creature": "rn_creature_lvl2",
-				"max": 10,
-				"min": 5
+				"max": 12,
+				"min": 7
 			},
 			{
 			  "creature" : "ballista",
