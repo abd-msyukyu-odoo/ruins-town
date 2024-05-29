@@ -23,10 +23,10 @@
 			"hypnotize"
 		],
 		"images": {
-			"large": "ruins/heroes/huldra/large.png",
-			"small": "ruins/heroes/huldra/small.png",
-			"specialtyLarge": "ruins/heroes/huldra/slarge.png",
-			"specialtySmall": "ruins/heroes/huldra/ssmall.png"
+			"large": "ruins/heroes/huldra_l.png",
+			"small": "ruins/heroes/huldra_s.png",
+			"specialtyLarge": "ruins/heroes/huldra_sl.png",
+			"specialtySmall": "ruins/heroes/huldra_ss.png"
 		},
 		"skills": [
 			{

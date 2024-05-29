@@ -22,10 +22,10 @@
 			"slow"
 		],
 		"images": {
-			"large": "ruins/heroes/thar/large.png",
-			"small": "ruins/heroes/thar/small.png",
-			"specialtyLarge": "ruins/heroes/thar/slarge.png",
-			"specialtySmall": "ruins/heroes/thar/ssmall.png"
+			"large": "ruins/heroes/thar_l.png",
+			"small": "ruins/heroes/thar_s.png",
+			"specialtyLarge": "ruins/heroes/thar_sl.png",
+			"specialtySmall": "ruins/heroes/thar_ss.png"
 		},
 		"skills": [	
 			{

@@ -20,10 +20,10 @@
 		"class": "rn_magic",
 		"spellbook": [],
 		"images": {
-			"large": "ruins/heroes/woden/large.png",
-			"small": "ruins/heroes/woden/small.png",
-			"specialtyLarge": "ruins/heroes/woden/slarge.png",
-			"specialtySmall": "ruins/heroes/woden/ssmall.png"
+			"large": "ruins/heroes/woden_l.png",
+			"small": "ruins/heroes/woden_S.png",
+			"specialtyLarge": "ruins/heroes/woden_sl.png",
+			"specialtySmall": "ruins/heroes/woden_ss.png"
 		},
 		"skills": [
 			{
