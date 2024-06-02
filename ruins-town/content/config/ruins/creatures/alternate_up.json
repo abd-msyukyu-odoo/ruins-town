@@ -113,10 +113,10 @@
 		],
 		"hasDoubleWeek": false,
 		"graphics": {
-			"animation": "ruins/creatures/battle/lvl5alt.def",
-			"map": "ruins/creatures/adventure/lvl5alt.def",
-			"iconSmall": "ruins/creatures/icon/lvl5alt.bmp",
-			"iconLarge": "ruins/creatures/portrait/lvl5alt.bmp",
+			"animation": "ruins/creatures/battle/lvl5alt_up.def",
+			"map": "ruins/creatures/adventure/lvl5alt_up.def",
+			"iconSmall": "ruins/creatures/icon/lvl5alt_up.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl5alt_up.bmp",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,

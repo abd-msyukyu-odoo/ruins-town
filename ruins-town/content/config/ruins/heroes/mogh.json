@@ -22,10 +22,10 @@
 			"dispel"
 		],
 		"images": {
-			"large": "ruins/heroes/mogh/large.bmp",
-			"small": "ruins/heroes/mogh/small.bmp",
-			"specialtyLarge": "ruins/heroes/mogh/slarge.bmp",
-			"specialtySmall": "ruins/heroes/mogh/ssmall.bmp"
+			"large": "ruins/heroes/mogh_l.bmp",
+			"small": "ruins/heroes/mogh_s.bmp",
+			"specialtyLarge": "ruins/heroes/mogh_sl.bmp",
+			"specialtySmall": "ruins/heroes/mogh_ss.bmp"
 		},
 		"skills": [
 			{

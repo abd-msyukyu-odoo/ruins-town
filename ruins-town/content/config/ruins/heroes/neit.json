@@ -20,10 +20,10 @@
 		"female": true,
 		"class": "rn_might",
 		"images": {
-			"large": "ruins/heroes/neit/large.png",
-			"small": "ruins/heroes/neit/small.png",
-			"specialtyLarge": "ruins/heroes/neit/slarge.png",
-			"specialtySmall": "ruins/heroes/neit/ssmall.png"
+			"large": "ruins/heroes/neit_l.png",
+			"small": "ruins/heroes/neit_s.png",
+			"specialtyLarge": "ruins/heroes/neit_sl.png",
+			"specialtySmall": "ruins/heroes/neit_ss.png"
 		},
 		"skills": [
 			{

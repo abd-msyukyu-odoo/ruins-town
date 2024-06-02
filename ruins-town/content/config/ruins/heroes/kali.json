@@ -23,10 +23,10 @@
 			"sacrifice"
 		],
 		"images": {
-			"large": "ruins/heroes/kali/large.png",
-			"small": "ruins/heroes/kali/small.png",
-			"specialtyLarge": "ruins/heroes/kali/slarge.png",
-			"specialtySmall": "ruins/heroes/kali/ssmall.png"
+			"large": "ruins/heroes/kali_l.png",
+			"small": "ruins/heroes/kali_s.png",
+			"specialtyLarge": "ruins/heroes/kali_sl.png",
+			"specialtySmall": "ruins/heroes/kali_ss.png"
 		},
 		"skills": [
 			{
