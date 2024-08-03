@@ -20,15 +20,15 @@
 			"gold": 790
 		},
 		"fightValue": 1170,
-		"aiValue": 1092,
+		"aiValue": 1400,
 		"growth": 2,
 		"attack": 15,
 		"defense": 11,
 		"hitPoints": 70,
 		"shots": 0,
-		"speed": 10,
+		"speed": 8,
 		"damage": {
-			"min": 10,
+			"min": 15,
 			"max": 20
 		},
 		"horde" : 2,

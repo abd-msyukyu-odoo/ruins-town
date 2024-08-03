@@ -8,7 +8,7 @@
 					"description" : "Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 0,
 					"name" : "Mage Guild level 1",
-					"requires" : [ "fort" ]
+					"requires" : [ "villageHall" ]
 				},
 				"mageGuild2" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 4,"sulfur": 4, "mercury": 4, "gems": 4},
@@ -214,7 +214,7 @@
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl5" : {
-					"cost" : { "gold" : 1500, "ore" : 5 },
+					"cost" : { "gold" : 2500, "ore" : 5 },
 					"description" : "High Peak Nests allows you to recruit Perytons.",
 					"id" : 34,
 					"name" : "High Peak Nests",

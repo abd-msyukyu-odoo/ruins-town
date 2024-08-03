@@ -18,10 +18,10 @@
 			"gold" : 630
 		},
 		"fightValue" : 1035,
-		"aiValue" : 1152,
+		"aiValue" : 900,
 		"growth" : 3,
 		"attack" : 11,
-		"defense" : 16,
+		"defense" : 13,
 		"hitPoints" : 40,
 		"shots" : 12,
 		"speed" : 7,
@@ -44,11 +44,6 @@
 			"magic": {
 				"type": "MAGIC_MIRROR",
 				"val": 50
-			},
-			"shield" : {
-				"type" : "ENCHANTED",
-				"subtype" : "spell.shield",
-				"val" : 1
 			},
 			"spellPower" : 
 			{

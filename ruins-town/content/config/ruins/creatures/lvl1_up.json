@@ -17,16 +17,16 @@
 			"gold": 80
 		},
 		"fightValue": 70,
-		"aiValue": 95,
+		"aiValue": 105,
 		"growth": 16,
 		"horde": 9,
 		"attack": 4,
-		"defense": 5,
-		"hitPoints": 8,
+		"defense": 4,
+		"hitPoints": 6,
 		"shots": 12,
 		"speed": 5,
 		"damage": {
-			"min": 1,
+			"min": 2,
 			"max": 3
 		},
 		"spellPoints": 0,

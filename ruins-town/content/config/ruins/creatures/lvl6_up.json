@@ -17,13 +17,13 @@
 			"gold": 900
 		},
 		"fightValue": 1560,
-		"aiValue": 1740,
+		"aiValue": 2500,
 		"growth": 2,
 		"attack": 19,
 		"defense": 12,
 		"hitPoints": 90,
 		"shots": 0,
-		"speed": 12,
+		"speed": 10,
 		"damage": {
 			"min": 15,
 			"max": 25

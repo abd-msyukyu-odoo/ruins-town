@@ -22,10 +22,10 @@
 			"gold" : 540
 		},
 		"fightValue" : 777,
-		"aiValue" : 848,
+		"aiValue" : 800,
 		"growth" : 3,
-		"attack" : 11,
-		"defense" : 13,
+		"attack" : 10,
+		"defense" : 12,
 		"hitPoints" : 35,
 		"shots" : 12,
 		"speed" : 6,
@@ -44,10 +44,6 @@
 		"abilities" : {
 			"shooter": {
 				"type":"SHOOTER"
-			},
-			"magic": {
-				"type": "MAGIC_MIRROR",
-				"val": 25
 			}
 		},
 		"stackExperience" :
