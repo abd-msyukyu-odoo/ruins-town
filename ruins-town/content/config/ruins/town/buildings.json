@@ -149,7 +149,7 @@
 				},
 				"hordeLvl6" : {
 					"cost" : { "gold" : 1500 },
-					"description" : "Impaling Stakes increases Wendigos production by 3 per week.",
+					"description" : "Impaling Stakes increases Wendigos production by 2 per week.",
 					"id" : 24,
 					"name" : "Impaling Stakes",
 					"requires" : [ "dwellingLvl6" ],
@@ -157,7 +157,7 @@
 				},
 				"hordeUpLvl6" : {
 					"cost" : { "gold" : 1500 },
-					"description" : "Impaling Stakes increases Feral Wendigos production by 3 per week.",
+					"description" : "Impaling Stakes increases Feral Wendigos production by 2 per week.",
 					"id" : 25,
 					"name" : "Impaling Stakes",
 					"requires" : [ "hordeLvl6" ],
