@@ -33,6 +33,13 @@
 			"translation/ruins/polish.json"
 		]
 	},
+	"russian": {
+		"name": "Руины",
+		"description": "Новый город Руины от Tok, в основе которого лежит кельтская мифология. Подробнее на http://heroescommunity.com/viewthread.php3?TID=44951",
+		"translations": [
+			"translation/ruins/russian.json"
+		]
+	},
 	"changelog": {
 		"2.0.12": [
 			"New portraits",
