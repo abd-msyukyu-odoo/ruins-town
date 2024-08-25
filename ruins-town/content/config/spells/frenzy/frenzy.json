@@ -1,0 +1,42 @@
+{
+    "core:frenzy":
+    {
+        "levels":
+        {
+            "base":
+            {
+                "effects":
+                {
+                    "extendedFrenzy": {
+                        "type": "SPELL_AFTER_ATTACK",
+                        "subtype": "spell.frenzyAbility",
+                        "val": 100,
+                        "duration": "N_TURNS",
+                        "addInfo": [1, 0]
+                    }
+                }
+            },
+            "advanced":
+            {
+                "effects":
+                {
+                    "extendedFrenzy": {
+                        "addInfo": [2, 0]
+                    }
+                }
+            },
+            "expert":
+            {
+                "effects":
+                {
+                    "extendedFrenzy": {
+                        "addInfo": [3, 0]
+                    }
+                }
+            }
+        },
+        "counters": {
+            "ruins-town:spell.frenzyAbility": true
+        }
+    }
+}

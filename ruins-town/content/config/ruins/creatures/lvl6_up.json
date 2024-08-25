@@ -41,9 +41,9 @@
 			},
 			"frenzy": {
 				"type": "SPELL_BEFORE_ATTACK",
-				"subtype": "spell.frenzy",
+				"subtype": "spell.frenzyAbility",
 				"val": 70,
-				"addInfo": 2001
+				"addInfo": [1, 0]
 			},
 			"enemyDefenceReduction":
 			{

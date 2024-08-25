@@ -1,0 +1,111 @@
+{
+    "frenzyAbility":
+    {
+        "type": "ability",
+        "name": "Frenzy",
+        "school":
+        {
+            "air": false,
+            "earth": false,
+            "fire": true,
+            "water": false
+        },
+        "targetType": "CREATURE",
+        "level": 1,
+        "power": 1,
+        "defaultGainChance": 0,
+        "gainChance": {},
+        "animation":
+        {
+            "affect": [{ "defName":"C08SPF0.def", "verticalPosition":"top" }]
+        },
+        "flags":
+        {
+            "positive": true
+        },
+        "sounds":
+        {
+            "cast": "FRENZY"
+        },
+        "graphics":
+        {
+            "iconEffect": "SpellInt.def:57"
+        },
+        "levels":
+        {
+            "base":
+            {
+                "range": "1",
+                "power": 1,
+                "cost": 0,
+                "aiValue": 20,
+                "targetModifier":
+                {
+                    "smart": true
+                },
+                "battleEffects":
+                {
+                    "frenzyAbilityEffect":
+                    {
+                        "type": "core:timed",
+                        "bonus":
+                        {
+                            "frenzyAbilityBonus":
+                            {
+                                "type": "IN_FRENZY",
+                                "val": 100,
+                                "duration": "STACK_GETS_TURN"
+                            }
+                        }
+                    }
+                },
+                "description": "The creature forgoes its defenses to go all in on attacks."
+            },
+            "none": {},
+            "basic": {},
+            "advanced":
+            {
+                "battleEffects":
+                {
+                    "frenzyAbilityEffect":
+                    {
+                        "bonus":
+                        {
+                            "frenzyAbilityBonus":
+                            {
+                                "val": 150
+                            }
+                        }
+                    }
+                }
+            },
+            "expert":
+            {
+                "battleEffects":
+                {
+                    "frenzyAbilityEffect":
+                    {
+                        "bonus":
+                        {
+                            "frenzyAbilityBonus":
+                            {
+                                "val": 200
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "targetCondition":
+        {
+            "noneOf":
+            {
+                "core:bonus.IN_FRENZY": "absolute"
+            }
+        },
+        "counters": 
+        {
+            "core:frenzy": true
+        }
+    }
+}
