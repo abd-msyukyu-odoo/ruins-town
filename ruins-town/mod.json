@@ -3,14 +3,14 @@
 	"description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
 	"author": "Fiorin, Stefan Ciobanu",
 	"contact": "https://fior.in",
-	"version": "2.0.14",
+	"version": "2.0.2",
 	"modType": "Town",
 	"depends": [
 		"hota.cove",
 		"hota.interference"
 	],
 	"compatibility": {
-		"min": "1.4.0"
+		"min": "1.6.0"
 	},
 	"german": {
 		"name": "Ruinen",
@@ -41,6 +41,9 @@
 		]
 	},
 	"changelog": {
+		"2.0.2": [
+			"Update to vcmi-1.6 format"
+		],
 		"2.0.14": [
 			"New townscreen"
 		],

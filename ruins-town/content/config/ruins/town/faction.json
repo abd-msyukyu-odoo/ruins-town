@@ -67,7 +67,7 @@
 					}
 				}
 			},
-			"musicTheme": "music/ruins",
+			"musicTheme": [ "music/ruins" ],
 			"creatures": [
 				[
 					"rn_creature_lvl1",
@@ -250,7 +250,6 @@
 			},
 			"tavernVideo": "TAVERN.BIK",
 			"townBackground": "ruins/town/background",
-			"warMachine": "ammoCart",
 			"guildBackground" : "TPMAGE.bmp",
 			"moatAbility" : "castleMoat"
 		}

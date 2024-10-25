@@ -93,6 +93,7 @@
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"id" : 14,
+					"marketModes" : ["resource-resource", "resource-player"],
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
@@ -107,14 +108,15 @@
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Blacksmith provides your armies with Ammo Cart.",
 					"id" : 16,
+					"warMachine": "ammoCart",
 					"name" : "Blacksmith",
 					"requires" : [ "tavern" ]
 				},
 				"special1" : {
 					"cost" : { "gold" : 2000, "wood" : 5},
-					"description" : "Siege Junkyard provides your armies with siege weapons.",
+					"description" : "Siege Junkyard provides your armies with Ballistas.",
 					"id" : 17,
-				    "type": "ballistaYard",
+				    "warMachine" : "ballista",
 					"name" : "Siege Junkyard",
 					"requires" : [ 
 						"allOf", [ "tavern"], [ "blacksmith" ]
@@ -142,7 +144,15 @@
 				"special4" : {
 					"cost" : { "gold" : 500, "ore" : 5},
 					"description" : "The Monument grants visiting heroes +1 knowledge.",
-					"type" : "knowledgeVisitingBonus",
+						"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "You study the glyphs on the Monument and gain insight into the workings of various magics (+1 Knowledge)",
+								"primary" : { "knowledge" : 1 }
+							}
+						]
+					},
 					"id" : 23,
 					"name" : "Monument",
 					"requires" : [ "townHall" ]
