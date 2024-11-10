@@ -9,6 +9,7 @@
 		"hota.cove",
 		"hota.interference"
 	],
+	"conflicts" : [ "ruins-town-var" ],
 	"compatibility": {
 		"min": "1.6.0"
 	},
