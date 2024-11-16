@@ -3,7 +3,7 @@
 	"description": "Ruins town\n - \n\nMod done with much affection, enjoy. I await your feedback.\n\n More info at http://heroescommunity.com/viewthread.php3?TID=44951 \r\n\r\nOpen manual.pdf file inside mod directory",
 	"author": "Fiorin, Stefan Ciobanu",
 	"contact": "https://fior.in",
-	"version": "2.0.21",
+	"version": "2.0.22",
 	"modType": "Town",
 	"depends": [
 		"hota.cove",
@@ -49,6 +49,9 @@
 		]
 	},
 	"changelog": {
+		"2.0.22": [
+			"Added wikipedia. Author: Star_mage"
+		],
 		"2.0.21": [
 			"Czech translation by George King"
 		],
@@ -149,7 +152,8 @@
 		"config/ruins/creatures/alternate.json",
 		"config/ruins/creatures/alternate_up.json",
 		"config/ruins/creatures/cm3.json",
-		"config/ruins/creatures/cm3_up.json"
+		"config/ruins/creatures/cm3_up.json",
+		"config/ruins/creatures/wiki.json"
 	],
 	"heroClasses": [
 		"config/ruins/classes/might.json",
