@@ -192,5 +192,10 @@
     "building.ruins-town.ruins.hordeLvl6.description": "Przeszywające kołki zwiększają produkcję Wendigo o 2 w tygodniu.",
     "building.ruins-town.ruins.hordeLvl6.name": "Przeszywające kołki",
     "building.ruins-town.ruins.hordeUpLvl6.description": "Przeszywające kołki zwiększają produkcję Dzikich wendigo o 2 w tygodniu.",
-    "building.ruins-town.ruins.hordeUpLvl6.name": "Przeszywające kołki"
+    "building.ruins-town.ruins.hordeUpLvl6.name": "Przeszywające kołki",
+	"skill.ruins-town.evasion.description.advanced" : "{Zaawansowany Unik}\n\nStworzenia mają 15% szans na złagodzenie nadchodzących obrażeń, zmniejszając o 45% obrażenia od ataku wręcz i o 90% obrażenia od ataku dystansowego",
+	"skill.ruins-town.evasion.description.basic" : "{Podstawowy Unik}\n\nStworzenia mają 10% szans na złagodzenie nadchodzących obrażeń, zmniejszając o 40% obrażenia od ataku wręcz i o 80% obrażenia od ataku dystansowego",
+	"skill.ruins-town.evasion.description.expert" : "{Expercki Unik}\n\nStworzenia mają 20% szans na złagodzenie nadchodzących obrażeń, zmniejszając o 50% obrażenia od ataku wręcz i o jednego ataku dystansowego",
+	"skill.ruins-town.evasion.name" : "Uniki",
+	"spell.ruins-town.dodge.name" : "Unik"
 }
