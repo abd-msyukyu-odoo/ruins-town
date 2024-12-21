@@ -87,9 +87,7 @@
 				],
 				[
 					"rn_creature_lvl5",
-					"rn_creature_lvl5_up",
-					"rn_creature_alternate",
-					"rn_creature_alternate_up"
+					"rn_creature_lvl5_up"
 				],
 				[
 					"rn_creature_lvl6",
@@ -98,6 +96,10 @@
 				[
 					"rn_creature_lvl7",
 					"rn_creature_lvl7_up"
+				],
+				[
+					"rn_creature_alternate",
+					"rn_creature_alternate_up"
 				]
 			],
 			"guildWindow": "ruins/town/mageguild",

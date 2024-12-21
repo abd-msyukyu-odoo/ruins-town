@@ -17,14 +17,14 @@
 			"sulfur": 0,
 			"crystal": 0,
 			"gems": 0,
-			"gold": 790
+			"gold": 800
 		},
 		"fightValue": 1170,
 		"aiValue": 1400,
 		"growth": 2,
-		"attack": 15,
+		"attack": 16,
 		"defense": 11,
-		"hitPoints": 70,
+		"hitPoints": 90,
 		"shots": 0,
 		"speed": 8,
 		"damage": {

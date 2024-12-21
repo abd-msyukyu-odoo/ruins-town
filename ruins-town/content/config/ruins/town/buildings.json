@@ -158,7 +158,7 @@
 					"requires" : [ "townHall" ]
 				},
 				"hordeLvl6" : {
-					"cost" : { "gold" : 1500 },
+					"cost" : { "gold" : 3000, "wood" : 5 },
 					"description" : "Impaling Stakes increases Wendigos production by 2 per week.",
 					"id" : 24,
 					"name" : "Impaling Stakes",
@@ -166,7 +166,7 @@
 					"upgrades" : "dwellingLvl6"
 				},
 				"hordeUpLvl6" : {
-					"cost" : { "gold" : 1500 },
+					"cost" : { "gold" : 3000, "wood" : 5 },
 					"description" : "Impaling Stakes increases Feral Wendigos production by 2 per week.",
 					"id" : 25,
 					"name" : "Impaling Stakes",
@@ -194,7 +194,7 @@
 					}]
 				},
 				"dwellingLvl1" : {
-					"cost" : { "gold" : 500},
+					"cost" : { "gold" : 500, "ore": 5 },
 					"description" : "Shirefolk allows you to recruit Wildmen.",
 					"id" : 30,
 					"name" : "Shirefolk",
@@ -214,7 +214,7 @@
 					"description" : "Trapcrafters HQ allows you to recruit Trackers.",
 					"id" : 32,
 					"name" : "Trapcrafters HQ",
-					"requires" : [ "allOf", [ "dwellingLvl1" ]]
+					"requires" : [ "dwellingLvl1" ]
 				},
 				"dwellingLvl4" : {
 					"cost" : { "wood" : 5, "gold" : 2000},
@@ -224,16 +224,16 @@
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl5" : {
-					"cost" : { "gold" : 2500, "ore" : 5 },
+					"cost" : { "gold" : 2500, "ore" : 5, "wood" : 5, "gems" : 5},
 					"description" : "High Peak Nests allows you to recruit Perytons.",
 					"id" : 34,
 					"name" : "High Peak Nests",
 					"requires" : [ 
-						"allOf", [ "marketplace" ], [ "dwellingLvl2" ], [ "noneOf", [ "dwellingAlternateLvl5" ] ] 
+						"allOf", [ "marketplace" ], [ "dwellingLvl3" ]
 					]
 				},
 				"dwellingLvl6" : {
-					"cost" : { "gold" : 4000, "wood" : 5},
+					"cost" : { "gold" : 4000, "wood" : 5, "ore" : 5},
 					"description" : "Cave Thicket allows you to recruit Wendigos.",
 					"id" : 35,
 					"name" : "Cave Thicket",
@@ -242,12 +242,12 @@
 					]
 				},
 				"dwellingLvl7" : {
-					"cost" : { "gold" : 10000, "ore" : 20},
+					"cost" : { "gold" : 10000, "ore" : 40},
 					"description" : "Mountain Nexus allow you to recruit Walking Stones.",
 					"id" : 36,
 					"name" : "Mountain Nexus",
 					"requires" : [ 
-						"allOf", [ "mageGuild1"], [ "dwellingLvl6" ]
+						"allOf", [ "mageGuild1"], [ "dwellingAlternateLvl5" ]
 					]
 				},
 				"dwellingUpLvl1" : {
@@ -258,36 +258,35 @@
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
-					"cost" : { "gold" : 1300, "ore" : 5},
+					"cost" : { "gold" : 1500, "ore" : 5, "sulfur" : 2},
 					"description" : "The Upg. Scalecrest Roost allows you to recruit Dire Cockatrices.",
 					"id" : 38,
 					"name" : "Upg. Scalecrest Roost",
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
-					"cost" : { "gold" : 1000, "wood" : 5 },
+					"cost" : { "gold" : 1000, "wood" : 10 },
 					"description" : "The Upg. Trapcrafters HQ allows you to recruit Huntsmen.",
 					"id" : 39,
 					"name" : "Upg. Trapcrafters HQ",
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"cost" : { "mercury" : 5, "gold" : 2000},
+					"cost" : { "mercury" : 5, "gold" : 2000, "ore": 5},
 					"description" : "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
 					"id" : 40,
 					"name" : "Upg. Aquarius Pond",
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"cost" : { "ore" : 10, "gold" : 1500},
+					"cost" : { "ore" : 10, "gold" : 2000, "gems": 5},
 					"description" : "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
 					"id" : 41,
 					"name" : "Upg. High Peak Nests",
-					"upgrades" : "dwellingLvl5",
-					"requires" : [ "dwellingLvl3" ]
+					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
-					"cost" : { "gold" : 3000, "sulfur" : 10, "wood" : 5},
+					"cost" : { "gold" : 3000, "sulfur" : 10, "wood" : 5, "ore": 10},
 					"description" : "The Upg. Cave Thicket allows you to recruit Feral Wendigos.",
 					"id" : 42,
 					"name" : "Upg. Cave Thicket",
@@ -295,31 +294,29 @@
 					"requires" : [ "mageGuild2" ]
 				},
 				"dwellingUpLvl7" : {
-					"cost" : { "gems" : 15, "gold" : 15000, "ore" : 15},
+					"cost" : { "gems" : 15, "gold" : 15000, "ore" : 30},
 					"description" : "The Upg. Mountain Nexus allows you to recruit Colossus.",
 					"id" : 43,
 					"name" : "Upg. Mountain Nexus",
 					"upgrades" : "dwellingLvl7",
-					"requires" : [ 
-						"allOf", [ "mageGuild2" ]
-					]
+					"requires" : [ "mageGuild2" ]
 				},
 				"dwellingAlternateLvl5" : {
-					"cost" : { "mercury" : 2, "wood" : 3, "gold" : 2500 },
+					"cost" : { "mercury" : 5, "wood" : 10, "gold" : 2500},
 					"description" : "Witch Hut allows you to recruit Forest Witches.",
-					"id" : 48,
+					"id" : 150,
 					"name" : "Witch Hut",
 					"requires" : [ 
-						"allOf", [ "mageGuild1" ], [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl5" ] ]
+						"allOf", [ "mageGuild1" ], [ "dwellingLvl4" ]
 					]
 				},
 				"dwellingAlternateUpLvl5" : {
-					"cost" : { "mercury" : 2, "sulfur" : 2,"gold" : 2500},
+					"cost" : { "mercury" : 5, "sulfur" : 5,"gold" : 2500},
 					"description" : "The Upg. Witch Hut allows you to recruit Priestess.",
-					"id" : 55,
+					"id" : 151,
 					"name" : "Upg. Witch Hut",
 					"upgrades" : "dwellingAlternateLvl5",
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild2" ]]
+					"requires" : [ "mageGuild2" ]
 				}
 			}
 		}

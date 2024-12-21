@@ -17,18 +17,18 @@
 			"sulfur": 0,
 			"crystal": 0,
 			"gems": 0,
-			"gold": 242
+			"gold": 240
 		},
 		"fightValue": 342,
 		"aiValue": 350,
 		"growth": 5,
-		"attack": 8,
-		"defense": 8,
-		"hitPoints": 28,
+		"attack": 9,
+		"defense": 9,
+		"hitPoints": 35,
 		"speed": 6,
 		"damage": {
-			"min": 4,
-			"max": 7
+			"min": 7,
+			"max": 9
 		},
 		"spellPoints": 50,
 		"advMapAmount": {

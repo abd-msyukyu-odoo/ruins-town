@@ -43,7 +43,7 @@
 			},
 			"magic": {
 				"type": "MAGIC_MIRROR",
-				"val": 50
+				"val": 20
 			},
 			"spellPower" : 
 			{
