@@ -2,8 +2,8 @@
 	"evasion" : {
 		"name" : "Evasion",
 		"gainChance" : {
-			"might" : 3,
-			"magic" : 4
+			"might" : 0,
+			"magic" : 0
 		},
 		"base": {
 			"effects" : {
