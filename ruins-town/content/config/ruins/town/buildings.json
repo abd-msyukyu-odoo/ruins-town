@@ -138,8 +138,8 @@
 						"gold" : 1000,
 						"wood" : 5
 					},
-					"description" : "The Blacksmith provides your armies with First Aid Tent.",
-					"warMachine" : "firstAidTent",
+					"description" : "The Blacksmith provides your armies with Ammo Cart.",
+					"warMachine" : "ammoCart",
 					"name" : "Blacksmith",
 					"requires" : [
 						"tavern"
@@ -218,12 +218,18 @@
 						"ore" : 5
 					},
 					"description" : "The Jail grants visiting heroes +1 defence and block attacker fleeing combat.",
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "A visit to the Jail teaches you many new skills",
+								"primary" : {
+									"defence" : 1
+								}
+							}
+						]
+					},
 					"bonuses" : [
-						{
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "defence",
-							"val" : 1
-						},
 						{
 							"propagator" : "BATTLE_WIDE",
 							"type" : "BATTLE_NO_FLEEING",
@@ -246,7 +252,8 @@
 				},
 				"hordeLvl6" : {
 					"cost" : {
-						"gold" : 1500
+						"gold" : 3000,
+						"wood" : 5
 					},
 					"description" : "Impaling Stakes increases Wendigos production by 2 per week.",
 					"id" : 24,
@@ -258,7 +265,8 @@
 				},
 				"hordeUpLvl6" : {
 					"cost" : {
-						"gold" : 1500
+						"gold" : 3000,
+						"wood" : 5
 					},
 					"description" : "Impaling Stakes increases Feral Wendigos production by 2 per week.",
 					"id" : 25,
@@ -302,7 +310,8 @@
 				},
 				"dwellingLvl1" : {
 					"cost" : {
-						"gold" : 500
+						"gold" : 500,
+						"ore" : 5
 					},
 					"description" : "Shirefolk allows you to recruit Wildmen.",
 					"name" : "Shirefolk",
@@ -343,7 +352,7 @@
 				},
 				"dwellingLvl4" : {
 					"cost" : {
-						"ore" : 5,
+						"wood" : 5,
 						"gold" : 2000
 					},
 					"description" : "Aquarius Pond allow you to recruit Kelpies.",
@@ -362,7 +371,8 @@
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5,
-						"wood" : 5
+						"wood" : 5,
+						"gems" : 5
 					},
 					"description" : "High Peak Nests allows you to recruit Perytons.",
 					"name" : "High Peak Nests",
@@ -372,20 +382,15 @@
 							"marketplace"
 						],
 						[
-							"dwellingLvl2"
-						],
-						[
-							"noneOf",
-							[
-								"dwellingAlternateLvl5"
-							]
+							"dwellingLvl3"
 						]
 					]
 				},
 				"dwellingLvl6" : {
 					"cost" : {
 						"gold" : 4000,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 5
 					},
 					"description" : "Cave Thicket allows you to recruit Wendigos.",
 					"name" : "Cave Thicket",
@@ -402,7 +407,7 @@
 				"dwellingLvl7" : {
 					"cost" : {
 						"gold" : 10000,
-						"ore" : 30
+						"ore" : 40
 					},
 					"description" : "Mountain Nexus allow you to recruit Walking Stones.",
 					"name" : "Mountain Nexus",
@@ -412,7 +417,7 @@
 							"mageGuild1"
 						],
 						[
-							"dwellingLvl6"
+							"dwellingAlternateLvl5"
 						]
 					]
 				},
@@ -427,8 +432,9 @@
 				},
 				"dwellingUpLvl2" : {
 					"cost" : {
-						"gold" : 1300,
-						"ore" : 5
+						"gold" : 1500,
+						"ore" : 5,
+						"sulfur" : 2
 					},
 					"description" : "The Upg. Scalecrest Roost allows you to recruit Dire Cockatrices.",
 					"name" : "Upg. Scalecrest Roost",
@@ -437,7 +443,7 @@
 				"dwellingUpLvl3" : {
 					"cost" : {
 						"gold" : 1000,
-						"wood" : 5
+						"wood" : 10
 					},
 					"description" : "The Upg. Trapcrafters HQ allows you to recruit Huntsmen.",
 					"name" : "Upg. Trapcrafters HQ",
@@ -446,6 +452,7 @@
 				"dwellingUpLvl4" : {
 					"cost" : {
 						"mercury" : 5,
+						"ore" : 5,
 						"gold" : 2000
 					},
 					"description" : "The Upg. Aquarius Pond allows you to recruit Eldritch Kelpies.",
@@ -455,21 +462,19 @@
 				"dwellingUpLvl5" : {
 					"cost" : {
 						"ore" : 10,
-						"gold" : 1500,
-						"wood" : 5
+						"gold" : 2000,
+						"gems" : 5
 					},
 					"description" : "The Upg. High Peak Nests allows you to recruit Grand Perytons.",
 					"name" : "Upg. High Peak Nests",
-					"upgrades" : "dwellingLvl5",
-					"requires" : [
-						"dwellingLvl3"
-					]
+					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
 					"cost" : {
 						"gold" : 3000,
 						"sulfur" : 10,
-						"wood" : 5
+						"wood" : 5,
+						"ore" : 10
 					},
 					"description" : "The Upg. Cave Thicket allows you to recruit Feral Wendigos.",
 					"name" : "Upg. Cave Thicket",
@@ -482,26 +487,23 @@
 					"cost" : {
 						"gems" : 15,
 						"gold" : 15000,
-						"ore" : 15
+						"ore" : 30
 					},
 					"description" : "The Upg. Mountain Nexus allows you to recruit Colossus.",
 					"name" : "Upg. Mountain Nexus",
 					"upgrades" : "dwellingLvl7",
 					"requires" : [
-						"allOf",
-						[
-							"mageGuild2"
-						]
+						"mageGuild2"
 					]
 				},
 				"dwellingAlternateLvl5" : {
 					"cost" : {
-						"mercury" : 2,
-						"wood" : 3,
+						"mercury" : 5,
+						"wood" : 10,
 						"gold" : 2500
 					},
 					"description" : "Witch Hut allows you to recruit Forest Witches.",
-					"id" : 48,
+					"id" : 150,
 					"name" : "Witch Hut",
 					"requires" : [
 						"allOf",
@@ -509,34 +511,22 @@
 							"mageGuild1"
 						],
 						[
-							"dwellingLvl2"
-						],
-						[
-							"noneOf",
-							[
-								"dwellingLvl5"
-							]
+							"dwellingLvl4"
 						]
 					]
 				},
 				"dwellingAlternateUpLvl5" : {
 					"cost" : {
-						"mercury" : 2,
-						"sulfur" : 2,
+						"mercury" : 5,
+						"sulfur" : 5,
 						"gold" : 2500
 					},
 					"description" : "The Upg. Witch Hut allows you to recruit Priestess.",
-					"id" : 55,
+					"id" : 151,
 					"name" : "Upg. Witch Hut",
 					"upgrades" : "dwellingAlternateLvl5",
 					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl3"
-						],
-						[
-							"mageGuild2"
-						]
+						"mageGuild2"
 					]
 				}
 			}

@@ -25,8 +25,8 @@
 		"images" : {
 			"large" : "ruins/heroes/rhea/large.png",
 			"small" : "ruins/heroes/rhea/small.png",
-			"specialtyLarge" : "ruins/heroes/rhea/slarge.png",
-			"specialtySmall" : "ruins/heroes/rhea/ssmall.png"
+			"specialtyLarge" : "ruins/creatures/portrait/lvl5alt_up",
+			"specialtySmall" : "ruins/creatures/icon/lvl5alt_up"
 		},
 		"skills" : [
 			{
@@ -39,22 +39,15 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"forceField" : {
-					"subtype" : "forceField",
-					"type" : "SPELL",
-					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
-				}
-			}
+			"creature" : "rn_creature_alternate_up"
 		},
 		"texts" : {
 			"biography" : "Rhea, known as the Green Sister within the Chroma Covenant, hails from a secluded village in the western reaches of the mighty Erathian Empire. In her humble origins as a peasant, she was intimately acquainted with the secrets of herbs and the nurturing of livestock. When the turbulent Timber Wars erupted, she bravely assumed the forefront of the defense.",
 			"name" : "Rhea",
 			"specialty" : {
-				"description" : "Casts Force Field with expert effects. Start with Force Field spell.",
-				"name" : "Force Field",
-				"tooltip" : "Maxed Force Field spell. Starts with Force Field."
+				"description" : "Increases Speed of any Priestess by 1 and their Attack and Defense skills by 20% for every 5 level.",
+				"name" : "Priestess",
+				"tooltip" : "Creature bonus: Priestesses"
 			}
 		}
 	}

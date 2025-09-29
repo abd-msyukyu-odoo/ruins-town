@@ -1,0 +1,75 @@
+{
+	"frenzyAbility" : {
+		"type" : "ability",
+		"name" : "frenzyAbility",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"targetType" : "CREATURE",
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "C08SPF0.def",
+					"verticalPosition" : "top"
+				}
+			]
+		},
+		"flags" : {
+			"positive" : true
+		},
+		"sounds" : {
+			"cast" : "FRENZY"
+		},
+		"graphics" : {
+			"iconEffect" : "spells/dodge/dodgeEffect.png"
+		},
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"power" : 10,
+				"cost" : 0,
+				"aiValue" : 20,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"frenzied" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"moreAttack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : 10,
+								"duration" : "N_TURNS"
+							},
+							"lessDefence" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -10,
+								"duration" : "N_TURNS"
+							}
+						}
+					}
+				},
+				"description" : "The creature forgoes its defenses to go all in on attacks."
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		},
+		"targetCondition" : {
+			"allOf" : {
+				"ruins-town:creature.rn_creature_lvl6_up" : "absolute"
+			}
+		}
+	}
+}

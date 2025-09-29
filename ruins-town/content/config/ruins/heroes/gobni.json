@@ -43,7 +43,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Cockatrices",
 				"name" : "Cockatrice",
-				"description" : "Increases Speed of any Cockatrice or Dire Cockatrice by 1 and their Attack and Defense skills by 5% for every 2 levels."
+				"description" : "Increases Speed of any Cockatrice or Dire Cockatrice by 1 and their Attack and Defense skills by 20% for every 2 levels."
 			}
 		}
 	}

@@ -225,9 +225,7 @@
 	],
 	"spells" : [
 		"config/spells/grapple/grapple.json",
-		"config/spells/dodge/dodge.json"
+		"config/spells/frenzyAbility/frenzyAbility.json"
 	],
-	"skills" : [
-		"config/skills/evasion.json"
-	]
+	"skills" : []
 }
