@@ -37,7 +37,7 @@
 		"abilities": {
 			"immunity": {
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.fire",
+				"subtype" : "spellSchool.earth",
 				"val" : 100
 			},
 			"nonliving": {

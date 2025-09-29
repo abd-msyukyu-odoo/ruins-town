@@ -14,12 +14,12 @@
 			"sulfur": 0,
 			"crystal": 0,
 			"gems": 0,
-			"gold": 900
+			"gold": 1000
 		},
 		"fightValue": 1560,
 		"aiValue": 2500,
 		"growth": 2,
-		"attack": 19,
+		"attack": 18,
 		"defense": 12,
 		"hitPoints": 90,
 		"shots": 0,
@@ -39,11 +39,15 @@
 			"fearless": {
 				"type": "FEARLESS"
 			},
+			"spellDuration": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1 
+			},
 			"frenzy": {
 				"type": "SPELL_BEFORE_ATTACK",
-				"subtype": "spell.frenzy",
+				"subtype": "spell.frenzyAbility",
 				"val": 70,
-				"addInfo": 2001
+				"duration": "N_TURNS"
 			},
 			"enemyDefenceReduction":
 			{

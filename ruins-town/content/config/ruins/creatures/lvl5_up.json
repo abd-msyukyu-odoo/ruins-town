@@ -14,7 +14,7 @@
 			"sulfur": 0,
 			"crystal": 0,
 			"gems": 0,
-			"gold": 660
+			"gold": 700
 		},
 		"fightValue": 718,
 		"aiValue": 1500,
@@ -97,7 +97,7 @@
 			"iconLarge": "ruins/creatures/portrait/lvl5_up.bmp",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
-				"walk": 1.8,
+				"walk": 1,
 				"idle": 10.00,
 				"attack": 1
 			}

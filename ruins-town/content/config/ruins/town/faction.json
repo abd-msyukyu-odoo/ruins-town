@@ -3,13 +3,13 @@
     "name": "Ruins",
     "alignment": "neutral",
     "boat": "boatFortress",
-    "nativeTerrain": "grass",
+    "nativeTerrain": "rough",
     "creatureBackground": {
       "120px": "ruins/creaturebg120px",
       "130px": "ruins/creaturebg130px"
     },
     "town": {
-      "primaryResource": "ore",
+      "primaryResource": "wood",
       "mapObject": {
         "filters": {
           "castle": ["allOf", ["castle"], ["noneOf", ["capitol"]]],
@@ -40,14 +40,10 @@
         ["rn_creature_lvl2", "rn_creature_lvl2_up"],
         ["rn_creature_lvl3", "rn_creature_lvl3_up"],
         ["rn_creature_lvl4", "rn_creature_lvl4_up"],
-        [
-          "rn_creature_lvl5",
-          "rn_creature_lvl5_up",
-          "rn_creature_alternate",
-          "rn_creature_alternate_up"
-        ],
+        ["rn_creature_lvl5", "rn_creature_lvl5_up"],
         ["rn_creature_lvl6", "rn_creature_lvl6_up"],
-        ["rn_creature_lvl7", "rn_creature_lvl7_up"]
+        ["rn_creature_lvl7", "rn_creature_lvl7_up"],
+        ["rn_creature_alternate", "rn_creature_alternate_up"]
       ],
       "guildWindow": "ruins/town/mageguild",
       "names": [
